@@ -1,0 +1,132 @@
+body {
+  background-color: black;
+  background: rgb(33, 33, 33);
+}
+
+.Section {
+  min-height: 100vh;
+  padding: 5em;
+  color: #fff;
+  @media (max-width: $mobileXL-width) {
+    padding: 5em 2em;
+  }
+}
+
+section:nth-of-type(1) {
+  background: #fce97f;
+  animation: fadeBackground 80s linear infinite;
+  animation-fill-mode: both;
+  @media (max-width: $tabletPRO-width) {
+    min-height: 80vh;
+    padding: 2em 2em;
+  }
+}
+
+@keyframes fadeBackground {
+  from {
+    background-color: rgb(1, 6, 15);
+    background-position: top right;
+    background-image: radial-gradient(
+        rgb(19, 74, 31),
+        rgba(0, 0, 0, 0.15) 1px,
+        transparent 10px
+      ),
+      radial-gradient(
+        rgb(74, 19, 19),
+        rgba(255, 255, 255, 0.15) 1px,
+        transparent 10px
+      ),
+      radial-gradient(
+        rgb(19, 74, 31),
+        rgba(31, 131, 79, 0.14) 1px,
+        transparent 30px
+      ),
+      radial-gradient(
+        rgb(42, 42, 42),
+        rgba(46, 41, 41, 0.244) 0.5px,
+        transparent 90px
+      ),
+      radial-gradient(
+        rgb(42, 42, 42),
+        rgba(46, 41, 41, 0.244) 0.5px,
+        transparent 90px
+      ),
+      radial-gradient(
+        rgb(42, 42, 42),
+        rgba(46, 41, 41, 0.244) 0.5px,
+        transparent 10px
+      ),
+      radial-gradient(
+        rgb(19, 74, 31),
+        rgba(31, 131, 79, 0.14) 1px,
+        transparent 10px
+      );
+
+    background-size: 550px 550px, 3500px 3500px, 700px 700px, 500px 500px;
+    background-position: 20px 10px, 40px 10px, 1000px 100px, 1000px 10px,
+      30px 10px, 20px 10px, 20px 2px;
+  }
+  to {
+    background-color: rgb(1, 6, 15);
+    background-position: top right;
+    background-image: radial-gradient(
+        rgb(19, 74, 31),
+        rgba(0, 0, 0, 0.15) 1px,
+        transparent 90px
+      ),
+      radial-gradient(
+        rgb(19, 74, 31),
+        rgba(0, 0, 0, 0.15) 1px,
+        transparent 90px
+      ),
+      radial-gradient(
+        rgb(19, 74, 31),
+        rgba(31, 131, 79, 0.14) 1px,
+        transparent 30px
+      ),
+      radial-gradient(
+        rgb(42, 42, 42),
+        rgba(46, 41, 41, 0.244) 0.5px,
+        transparent 90px
+      ),
+      radial-gradient(
+        rgb(42, 42, 42),
+        rgba(46, 41, 41, 0.244) 0.5px,
+        transparent 90px
+      ),
+      radial-gradient(
+        rgb(42, 42, 42),
+        rgba(46, 41, 41, 0.244) 0.5px,
+        transparent 10px
+      ),
+      radial-gradient(
+        rgb(19, 74, 31),
+        rgba(31, 131, 79, 0.14) 1px,
+        transparent 10px
+      );
+
+    background-size: 550px 550px, 3500px 3500px, 700px 700px, 500px 500px;
+    background-position: 2000px 10px, 4000px 10px, 3000px 100px, 3000px 10px,
+      3000px 10px, 2000px 10px;
+  }
+}
+
+section:nth-of-type(2) {
+  background-color: rgb(1, 6, 15);
+  min-height: 30vh;
+}
+
+section:nth-of-type(3) {
+  min-height: 80vh;
+  padding: 6em 0em;
+  display: flex;
+  flex-direction: column;
+  animation: fadeBackground 80s linear infinite;
+  animation-fill-mode: both;
+  @media (max-width: $tabletPRO-width) {
+    min-height: 80vh;
+    padding: 2em 2em;
+  }
+}
+
+//  background: radial-gradient(circle, rgb(5, 28, 53) 4%, rgba(0, 0, 0, 1) 100%);

@@ -1,0 +1,41 @@
+.button__work {
+  border: solid white 0.1em;
+  display: inline-block;
+  padding: 1em 4em;
+  margin-top: 3em;
+  cursor: pointer;
+}
+
+.arrowdown {
+  padding-top: 10em;
+  margin: 0 auto;
+  cursor: pointer;
+
+  &__arrow {
+    border: 0.1em solid getColour(accent);
+    border-radius: 50em;
+    width: 3em;
+    height: 3em;
+    padding: 3em;
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+  }
+
+  &__text {
+    font-size: 1em;
+    margin: 0 auto;
+    color: white;
+  }
+
+  .icon {
+    font-size: 3em;
+    margin: 0 auto;
+    color: getColour(accent);
+  }
+
+  .workstext {
+    color: black;
+    font-weight: bold;
+  }
+}

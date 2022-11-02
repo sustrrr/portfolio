@@ -1,0 +1,38 @@
+#home {
+  text-align: center;
+  .flex {
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10em;
+    align-items: center;
+
+    @media (max-width: $tabletPRO-width) {
+      flex-direction: column;
+    }
+
+    .text {
+      h1 {
+        line-height: 100%;
+      }
+    }
+
+    .paragraph {
+      width: 30%;
+      text-align: center;
+    }
+
+    &__box {
+      flex: 1;
+    }
+
+    &__tiny {
+      flex: 0.1;
+      border-left: 0.1em solid grey;
+      width: 0%;
+      margin: 0 auto;
+      height: 3em;
+    }
+  }
+}

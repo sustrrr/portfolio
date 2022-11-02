@@ -1,0 +1,23 @@
+nav {
+  position: fixed;
+  width: 100%;
+  text-align: right;
+  color: white;
+
+  @media (max-width: $mobile-width) {
+    text-align: center;
+  }
+}
+
+.active {
+  font-weight: bold;
+}
+
+nav > div {
+  display: inline-block;
+  padding: 1em 4em;
+
+  @media (max-width: $mobile-width) {
+    padding: 1em 1em;
+  }
+}

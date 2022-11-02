@@ -1,0 +1,22 @@
+$font-primary: "roboto", arial;
+$font-heading-one: "montserrat", sans-serif;
+$font-heading-two: "barlow condensed", sans-serif;
+$font-special: "Unica One", cursive;
+
+$tabletPRO-width: 1030px;
+$tablet-width: 768px;
+$mobileXL-width: 540px; ///cards
+$mobile-width: 414px;
+
+$colours: (
+  primary: #626262,
+  ////navbar
+  secondary: #ededed,
+
+  //footer, ribbon
+  accent: #1a93d3,
+);
+
+@function getColour($colour) {
+  @return map-get($colours, $colour);
+}
