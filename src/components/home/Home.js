@@ -13,8 +13,7 @@ function Home() {
           <p>
             I make websites using HTML, CSS (SASS, CSS modules) and JavaScript
             (React, Typescript). Strong focus on design and good UX experience.
-            Long experience with design tools such as Adobe programs and Figma,
-            Contact me:
+            Long experience with design tools such as Adobe programs and Figma.
           </p>
         </div>
       </div>
