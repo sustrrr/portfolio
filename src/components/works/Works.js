@@ -7,7 +7,6 @@ function Works() {
       <div className="works">
         <ProjectExam></ProjectExam>
         <SemesterProject></SemesterProject>
-        <SemesterProject></SemesterProject>
       </div>
     </>
   );
