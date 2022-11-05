@@ -21,6 +21,18 @@
     .paragraph {
       width: 30%;
       text-align: center;
+
+      @media (max-width: $tabletPRO-width) {
+        width: 60%;
+      }
+
+      @media (max-width: $tablet-width) {
+        width: 80%;
+      }
+
+      @media (max-width: $mobile-width) {
+        width: 90%;
+      }
     }
 
     &__box {

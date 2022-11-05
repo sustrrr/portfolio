@@ -1,7 +1,13 @@
+#section__contact {
+  background-color: red;
+}
+
 .footer {
+  padding-top: 3em;
   flex: 3;
   width: 100%;
   color: rgb(255, 255, 255);
+  height: 100vh;
 
   .footerbox {
     padding: 0em;
@@ -10,8 +16,13 @@
     margin: 0 auto;
 
     h2 {
-      font-size: 1.3em;
-      margin-bottom: 2em;
+      font-weight: bold;
+      font-size: 1.5em;
+      color: rgb(255, 255, 255);
+
+      @media (max-width: $mobileXL-width) {
+        font-size: 1.4em;
+      }
     }
 
     .line {

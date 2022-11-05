@@ -11,7 +11,7 @@ function Home() {
         </div>
         <div className="flex__box paragraph">
           <p>
-            I make websites using HTML, CSS (SASS, CSS modules) and JavaScript
+            I create websites using HTML, CSS (SASS, CSS modules) and JavaScript
             (React, Typescript). Strong focus on design and good UX experience.
             Long experience with design tools such as Adobe programs and Figma.
           </p>
