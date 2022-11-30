@@ -1,0 +1,326 @@
+/*animate*/
+
+@mixin flex {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+@mixin animation-speed {
+  animation-fill-mode: both;
+  animation-fill-mode: both;
+  border-radius: 50%;
+  animation: example 90s linear infinite;
+}
+
+.animate-box {
+  position: relative;
+  top: -1em;
+  width: 100%;
+
+  div {
+    position: absolute;
+  }
+}
+
+.animate-one {
+  @include flex;
+  width: 90%;
+  @include animation-speed;
+  div {
+    width: 50px;
+    height: 50px;
+    background-image: radial-gradient(
+      farthest-side,
+      rgb(255, 255, 255),
+      rgba(0, 52, 111, 0.625) 1px,
+      transparent
+    );
+  }
+
+  div:nth-of-type(2) {
+    width: 10px;
+    height: 10px;
+    background-image: radial-gradient(
+      farthest-side,
+      rgb(255, 255, 255),
+      rgba(0, 52, 111, 0.625) 1px,
+      transparent
+    );
+  }
+
+  div:nth-of-type(3) {
+    width: 200px;
+    height: 200px;
+    background-image: radial-gradient(
+      farthest-side,
+      rgb(255, 255, 255),
+      rgba(0, 52, 111, 0.625) 1px,
+      transparent
+    );
+  }
+}
+
+.animate-two {
+  @include flex;
+  width: 90%;
+
+  @include animation-speed;
+  div {
+    width: 300px;
+    height: 300px;
+    background-image: radial-gradient(
+      farthest-side,
+      rgb(255, 255, 255),
+      rgba(0, 52, 111, 0.625) 1px,
+      transparent
+    );
+    position: relative;
+  }
+
+  div:nth-of-type(2) {
+    width: 10px;
+    height: 10px;
+    background-image: radial-gradient(
+      farthest-side,
+      rgb(255, 255, 255),
+      rgba(0, 52, 111, 0.625) 1px,
+      transparent
+    );
+  }
+}
+
+.animate-three {
+  @include flex;
+  width: 90%;
+  animation-fill-mode: both;
+  animation-fill-mode: both;
+  border-radius: 50%;
+  animation: example 10s linear infinite;
+  div {
+    width: 20px;
+    height: 20px;
+    background-image: radial-gradient(
+      farthest-side,
+      rgb(255, 255, 255),
+      rgba(0, 52, 111, 0.625) 1px,
+      transparent
+    );
+    position: relative;
+  }
+
+  div:nth-of-type(2) {
+    width: 400px;
+    height: 400px;
+    background-image: radial-gradient(
+      farthest-side,
+      rgb(255, 255, 255),
+      rgba(0, 52, 111, 0.625) 1px,
+      transparent
+    );
+  }
+
+  div:nth-of-type(3) {
+    width: 200px;
+    height: 200px;
+    background-image: radial-gradient(
+      farthest-side,
+      rgb(255, 255, 255),
+      rgba(0, 52, 111, 0.625) 1px,
+      transparent
+    );
+  }
+}
+
+.animate-four {
+  @include flex;
+  width: 90%;
+  @include animation-speed;
+  div {
+    width: 400px;
+    height: 400px;
+    background-image: radial-gradient(
+      farthest-side,
+      rgb(255, 255, 255),
+      rgba(0, 52, 111, 0.625) 1px,
+      transparent
+    );
+    position: relative;
+    border-radius: 50%;
+  }
+
+  div:nth-of-type(2) {
+    width: 200px;
+    height: 200px;
+    background-image: radial-gradient(
+      farthest-side,
+      rgb(255, 255, 255),
+      rgba(0, 52, 111, 0.625) 1px,
+      transparent
+    );
+  }
+
+  div:nth-of-type(3) {
+    width: 100px;
+    height: 100px;
+    background-image: radial-gradient(
+      farthest-side,
+      rgb(255, 255, 255),
+      rgba(0, 52, 111, 0.625) 1px,
+      transparent
+    );
+  }
+}
+
+.animate-five {
+  @include flex;
+  width: 90%;
+  animation-fill-mode: both;
+  animation-fill-mode: both;
+  border-radius: 50%;
+  animation: example 10s linear infinite;
+  div {
+    width: 400px;
+    height: 400px;
+    background-image: radial-gradient(
+      farthest-side,
+      rgb(255, 255, 255),
+      rgba(0, 52, 111, 0.625) 1px,
+      transparent
+    );
+    position: relative;
+    border-radius: 50%;
+    animation: example 10s linear infinite;
+  }
+
+  div:nth-of-type(2) {
+    width: 200px;
+    height: 200px;
+    background-image: radial-gradient(
+      farthest-side,
+      rgb(255, 255, 255),
+      rgba(0, 52, 111, 0.625) 1px,
+      transparent
+    );
+  }
+
+  div:nth-of-type(3) {
+    width: 100px;
+    height: 100px;
+    background-image: radial-gradient(
+      farthest-side,
+      rgb(255, 255, 255),
+      rgba(0, 52, 111, 0.625) 1px,
+      transparent
+    );
+    animation: example 10s linear infinite;
+  }
+}
+
+.animate-six {
+  @include flex;
+  width: 90%;
+  position: absolute;
+  @include animation-speed;
+  div {
+    width: 300px;
+    height: 300px;
+    background-image: radial-gradient(
+      farthest-side,
+      rgb(255, 255, 255),
+      rgba(0, 52, 111, 0.625) 1px,
+      transparent
+    );
+    position: relative;
+  }
+
+  div:nth-of-type(2) {
+    width: 100px;
+    height: 100px;
+    background-image: radial-gradient(
+      farthest-side,
+      rgb(255, 255, 255),
+      rgba(0, 52, 111, 0.625) 1px,
+      transparent
+    );
+    animation: example 9s linear infinite;
+  }
+
+  div:nth-of-type(3) {
+    width: 100px;
+    height: 100px;
+    background-image: radial-gradient(
+      farthest-side,
+      rgb(255, 255, 255),
+      rgba(0, 52, 111, 0.625) 1px,
+      transparent
+    );
+  }
+
+  .animate-seven {
+    @include flex;
+    width: 90%;
+    position: absolute;
+    animation-fill-mode: both;
+    animation-fill-mode: both;
+    border-radius: 50%;
+    animation: example 100s linear infinite;
+    div {
+      width: 300px;
+      height: 300px;
+      background-image: radial-gradient(
+        farthest-side,
+        rgb(255, 255, 255),
+        rgba(0, 52, 111, 0.625) 1px,
+        transparent
+      );
+      position: relative;
+    }
+
+    div:nth-of-type(2) {
+      width: 500px;
+      height: 500px;
+      background-image: radial-gradient(
+        farthest-side,
+        rgb(255, 255, 255),
+        rgba(0, 52, 111, 0.625) 1px,
+        transparent
+      );
+    }
+
+    div:nth-of-type(3) {
+      width: 100px;
+      height: 100px;
+      background-image: radial-gradient(
+        farthest-side,
+        rgb(255, 255, 255),
+        rgba(0, 52, 111, 0.625) 1px,
+        transparent
+      );
+    }
+  }
+}
+
+@keyframes example {
+  0% {
+    opacity: 30%;
+    left: 0px;
+    bottom: 0px;
+  }
+  10% {
+    opacity: 100%;
+    left: 0px;
+    bottom: 100px;
+  }
+  50% {
+    opacity: 0%;
+    left: 0px;
+    bottom: 500px;
+  }
+  100% {
+    opacity: 0%;
+    left: 0px;
+    bottom: 1000px;
+  }
+}

@@ -1,11 +1,9 @@
-@use "gradient";
-
 body {
-  background: rgb(33, 33, 33);
+  background: rgb(0, 0, 0);
   background-color: linear-gradient(
     to top,
     rgb(0, 0, 0) 1%,
-    rgba(14, 0, 90, 0.493) 1%,
+    rgba(19, 0, 127, 0.61) 1%,
     transparent
   );
 }
@@ -20,13 +18,9 @@ body {
 }
 
 section:nth-of-type(1) {
-  animation: homegradient 80s linear infinite;
+  background: linear-gradient(#070b30, #000000);
+  max-width: 100vw;
   overflow: hidden;
-  padding: 0em;
-
-  /*80s linear infinite;*/
-  animation-fill-mode: both;
-  background: linear-gradient(black, rgb(8, 6, 50));
   @media (max-width: $tabletPRO-width) {
     min-height: 80vh;
     padding: 2em 2em;
@@ -36,20 +30,21 @@ section:nth-of-type(1) {
 section:nth-of-type(2) {
   background: rgb(0, 0, 0);
   min-height: 30vh;
+  padding: 5em 2em 0em 2em;
 }
 
 section:nth-of-type(3) {
   min-height: 80vh;
-  padding: 6em 0em;
+  padding: 7em 0em;
   display: flex;
   flex-direction: column;
-  animation: footergradient 80s linear infinite;
+  max-width: 100vw;
+  overflow: hidden;
 
+  background-color: black;
   /*80s linear infinite;*/
-  animation-fill-mode: both;
-  animation-fill-mode: both;
-  @media (max-width: $tabletPRO-width) {
+  /*@media (max-width: $tabletPRO-width) {
     min-height: 80vh;
-    padding: 2em 2em;
-  }
+    padding: 3em 2em;
+  }*/
 }

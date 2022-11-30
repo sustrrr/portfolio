@@ -1,9 +1,7 @@
 import foodformood from "../../img/foodformood.jpg";
 
 import React from "react";
-import ReactDOM from "react-dom";
 import Modal from "react-modal";
-import { useEffect } from "react";
 
 import { IoIosLink } from "react-icons/io";
 
@@ -30,7 +28,7 @@ function SemesterProject() {
       <div className="button" onClick={openModal}>
         <div className="cardbox">
           <div class="card">
-            <img src={foodformood} />
+            <img src={foodformood} alt="Food for mood website" />
             <div className="card__text">
               <h2>Food for mood</h2>
               <div className="card__button">View</div>
@@ -46,15 +44,12 @@ function SemesterProject() {
           contentLabel="Example Modal"
           className="modal"
           style={{
-            overlay: { background: "rgba(0, 0, 0, 0.726)" },
+            overlay: { background: "rgba(0, 0, 0, 0.726)", zIndex: 1000 },
           }}
         >
           <div className="modalbox">
             <div className="textbox">
-              <img
-                src={foodformood}
-                alt="Picture of how the website Food for mood looks like while running"
-              />
+              <img src={foodformood} alt="Food for mood website" />
               <div className="modallinks">
                 <a
                   target="_blank"

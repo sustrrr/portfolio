@@ -13,6 +13,7 @@
   text-align: center;
   width: 70%;
   border-radius: 0em 0em 1em 1em;
+  position: relative;
 
   @media (max-width: $tablet-width) {
     width: 100%;
@@ -98,6 +99,7 @@
   outline: none;
   display: fixed;
   border-radius: 0.8em;
+  z-index: 7000;
 
   a {
     text-decoration: none;

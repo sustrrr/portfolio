@@ -1,7 +1,6 @@
 import projectexam from "../../img/projectexam.jpg";
 
 import React from "react";
-import ReactDOM from "react-dom";
 import Modal from "react-modal";
 
 import { IoIosLink } from "react-icons/io";
@@ -28,7 +27,7 @@ function ProjectExam() {
       <div className="button" onClick={openModal}>
         <div className="cardbox">
           <div class="card">
-            <img src={projectexam} />
+            <img src={projectexam} alt="Holidaze website" />
             <div
               className="card__text"
               alt="Picture of how the website Project Exam 2 looks like while running"
@@ -46,13 +45,18 @@ function ProjectExam() {
           onRequestClose={closeModal}
           contentLabel="Example Modal"
           className="modal"
-          style={{ overlay: { background: "rgba(0, 0, 0, 0.726)" } }}
+          style={{
+            overlay: { background: "rgba(0, 0, 0, 0.726)", zIndex: 1000 },
+          }}
         >
           <div className="modalbox">
             <div className="textbox">
-              <img src={projectexam} />
+              <img src={projectexam} alt="Holidaze website" />
               <div className="modallinks">
-                <a target="_blank" href="https://github.com/sustrrr/">
+                <a
+                  target="_blank"
+                  href="https://github.com/sustrrr/N_semesterproject-2"
+                >
                   <IoIosLink /> Github
                 </a>
                 <a

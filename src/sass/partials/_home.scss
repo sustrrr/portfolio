@@ -1,6 +1,12 @@
+.front {
+  position: relative;
+  z-index: 100;
+}
+
 #home {
   text-align: center;
   .flex {
+    z-index: 1;
     margin: 0 auto;
     width: 90%;
     display: flex;
