@@ -79,10 +79,6 @@ function Nav() {
       <section id="contactfooter" className="Section section__contact">
         <ContactFooter />
 
-        <div className="copyright">
-          <p>(C) 2022 Susanne Strøm</p>
-        </div>
-
         <div className="animate-box">
           <div className="animate-one">
             <div></div>

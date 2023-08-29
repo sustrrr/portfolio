@@ -32,8 +32,14 @@ function ProjectExam() {
               className="card__text"
               alt="Picture of how the website Project Exam 2 looks like while running"
             >
+              <a
+                target="_blank"
+                href="https://chimerical-kashata-0f06f2.netlify.app/"
+              >
+                <div className="card__button visit"> Visit site</div>
+              </a>
               <h2>Holidaze</h2>
-              <div className="card__button">View</div>
+              <div className="card__button red">Info</div>
             </div>
           </div>
         </div>

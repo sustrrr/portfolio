@@ -29,9 +29,17 @@ function SemesterProject() {
         <div className="cardbox">
           <div class="card">
             <img src={foodformood} alt="Food for mood website" />
+
             <div className="card__text">
+              <a
+                target="_blank"
+                href="https://poetic-florentine-24b25b.netlify.app/"
+              >
+                <div className="card__button visit"> Visit site</div>
+              </a>
+
               <h2>Food for mood</h2>
-              <div className="card__button">View</div>
+              <div className="card__button red">Info</div>
             </div>
           </div>
         </div>
