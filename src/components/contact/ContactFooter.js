@@ -8,7 +8,9 @@ function ContactFooter() {
       <div className="footer">
         <div className="footerbox">
           <h2>Contact me here </h2>
-          <div className="mail"></div>
+          <div className="mail">
+            <p>susannestrom@outlook.com</p>
+          </div>
           <a
             target="_blank"
             href="https://www.linkedin.com/in/susanne-str%C3%B8m-260056256/"
